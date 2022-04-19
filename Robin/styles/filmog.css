@@ -1,0 +1,193 @@
+body {
+  /*this block is to make the bg color black and font color*/
+  background-image: url(../assets/images/vectot.jpg);
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  /*styling the nav bar*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 1%;
+  overflow: hidden;
+}
+li {
+  /* in order to get nav bar elements horizontal not vertical*/
+  display: inline;
+}
+li a {
+  /*styling the text of the nav bar*/
+  text-decoration: none;
+  color: brown;
+  font-size: 1.5vw;
+  padding: 1%;
+}
+li a:hover {
+  /* changing the color of the elements when hovering*/
+  font-size: 1.8vw;
+  color: rgb(206, 116, 116);
+  transition: 0.5s ease-out;
+}
+
+#title {
+  font-size: 4vw;
+  color: #a52a2a;
+  background-color: #e1c5a7;
+  text-align: center;
+  position: relative;
+  animation-name: titlemove;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+@keyframes titlemove {
+  from {
+    left: -110vw;
+  }
+  to {
+    left: 0vw;
+  }
+}
+.right {
+  float: right;
+  width: 50%;
+}
+html,
+body {
+  height: 100%;
+  margin: 0%;
+}
+@font-face {
+  font-family: NRF;
+  src: url(../assets/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+p,
+h2,
+h3,
+pre {
+  font-family: NRF;
+}
+p {
+  font-size: 1vw;
+}
+.intro {
+  font-size: 2vw;
+  color: #e1c5a7;
+  background-color: brown;
+  text-align: center;
+  padding-left: 2vh;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  height: 100%;
+}
+.bg {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Adding image to each div */
+.image1 {
+  background-image: url("../assets/images/gd.jpg");
+  padding-top: 40vh;
+}
+.image2 {
+  background-image: url("../assets/images/md.jpg");
+}
+.image3 {
+  background-image: url("../assets/images/gm.jpg");
+}
+.image4 {
+  background-image: url("../assets/images/dps.jpg");
+}
+.image5 {
+  background-image: url("../assets/images/awa.jpg");
+}
+.image6 {
+  background-image: url("../assets/images/pa.jpg");
+}
+.image7 {
+  background-image: url("../assets/images/wd.jpg");
+}
+.image8 {
+  background-image: url("../assets/images/jum.jpg");
+}
+.image9 {
+  background-image: url("../assets/images/bc.jpg");
+}
+.image10 {
+  background-image: url("../assets/images/tw.jpg");
+}
+
+.text {
+  font-size: 30px;
+  padding: 2vh;
+  background-color: #e1c5a7;
+  color: #a52a2a;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mylove {
+  height: 15vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+td {
+  padding: 3vh;
+  text-align: left;
+}
+hr {
+  border: 10px solid brown;
+  border-radius: 5px;
+  margin-top: 5vh;
+}
+.ro2 td:nth-child(odd) {
+  background-color: #e1c5a7;
+  color: brown;
+}
+.ro2 td:nth-child(even) {
+  background-color: brown;
+  color: #e1c5a7;
+}
+.ro3 td:nth-child(odd) {
+  background-color: brown;
+  color: #e1c5a7;
+}
+.ro3 td:nth-child(even) {
+  background-color: #e1c5a7;
+  color: brown;
+}
+.mylove2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mylove2 th {
+  padding: 5vh;
+  background-image: radial-gradient(#e1c5a7, brown);
+  color: brown;
+}
+#last {
+  color: #e1c5a7;
+  background-color: brown;
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 1% 2% 2%;
+}
+#last a {
+  font-size: 1.8vw;
+  color: #d8b289;
+}
+#last a:hover {
+  background-color: #e1c5a7;
+  color: #a52a2a;
+  transition: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}

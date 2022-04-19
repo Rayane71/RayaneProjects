@@ -1,0 +1,254 @@
+body {
+  /*this block is to make the bg color black and font color*/
+  background-image: url(../assets/images/vectot.jpg);
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+p,
+h2,
+h3,
+pre {
+  font-family: NRF;
+}
+@font-face {
+    font-family: NRF;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+.bg-img {
+  /* The image used */
+  background-image: url("../assets/images/wlc.png");
+  height: 100vh;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  animation-name: back;
+  animation-duration: 1.75s;
+}
+
+@keyframes back {
+  from {
+    background-image: url(../assets/images/wlc.png);
+  }
+  to {
+    background-image: url(../assets/images/wlc2.png);
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  float: right;
+  height: 8vh;
+  padding-top: 3vh;
+  margin-right: 1%;
+}
+.topnav a{
+  color: #e1c5a7;
+  font-size: 1.5vw;
+  margin: 2vh;
+}
+.topnav a:hover {
+  color: rgb(9, 82, 69);
+}
+.topnav a:active{
+    background-color:#e1c5a7;
+}
+#intro {
+    font-size: 1.5vw;
+    color: #a52a2a;
+    text-align: center;
+    margin-bottom: 0.5vw;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    float: left;
+    width: 50%;
+    margin: 0%;
+}
+.column img:hover {
+    filter: grayscale(50%);
+    transition: 1s ease-in-out;
+    filter: grayscale(50%);
+    transition: 1s ease-in-out;
+}
+  
+.early {
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.earlyt {
+    margin: 0%;
+    padding:10%;
+    height: 50vh;
+    background-color: #e1c5a7;
+    color: #a52a2a;
+    text-align: center;
+}
+.earlyt a {
+    color: #a52a2a;
+}
+.earlyt a:hover {
+    background-color: #a52a2a;
+    color: #e1c5a7;
+}
+.bg1 {
+    background-image: url(../assets/images/wife.png),
+    linear-gradient(#e1c5a7c7, #e1c5a7c7);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+}
+.container {
+    height: 85vh;
+}
+.int {
+    display: flex;
+    align-items: flex-end;
+    height: 70vh;
+    width: 50%;
+    margin-left: 10vw;
+}
+.int h4 {
+    margin: 0%;
+    color: #dbb58d;
+    text-align: center;
+}
+.next {
+    color: rgba(0, 0, 0, 0.473);
+    background-color: #ddae7d;
+    border-radius: 12px;
+    padding: 0.5% 1% 1%;
+}
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: #ddae7d;
+    transition: 1s ease-in-out;
+}
+.bg2 {
+    background-image: url(../assets/images/award.png),
+    linear-gradient(#e1c5a7c7, #e1c5a7c7);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+}
+.next2 {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: #ddae7d;
+    border-radius: 12px;
+    padding: 0.5% 1% 1%;
+}
+.next2:hover {
+    color: rgba(0, 0, 0, 0.473);
+    background-color: #ddae7d;
+    transition: 1s ease-in-out;
+}
+.film {
+    display: flex;
+    align-items: flex-end;
+    height: 70vh;
+    width: 70%;
+    margin-left: 10vw;
+}
+.film h4 {
+    margin: 0%;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+.box {
+    position: relative;
+}
+.hil {
+    width: 100%;
+    height: 100vh;
+}
+  
+.block {
+    position: absolute;
+    bottom: 1%;
+    left: 20%;
+    background-color: rgba(165, 42, 42, 0.8);
+    color: #e1c5a7;
+    padding: 1.5% 5%;
+    animation-name: fadeInOut;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.block:hover {
+    animation-play-state: paused;
+    background-color: #a52a2a;
+}
+.block a{
+    color:#dbb58d;
+}
+.block a:hover{
+    color:#dbb58d;
+    font-size: 2.5vw;
+    animation-play-state: paused;
+    transition: 1s ease-in-out;
+}
+#add {
+    font-family: NRF;
+    font-size: 1.5vw;
+    color: #a52a2a;
+    text-align: justify;
+    margin-top:0px;
+  
+}
+#ad a {
+    text-decoration: none;
+    color: brown;
+    font-size: 1.5vw;
+}
+#ad a:hover {
+    font-size: 2vw;
+    color: darkred;
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+q {
+  font-style: italic;
+  font-weight: bold;
+}
+h4 {
+  font-size: 2vw;
+}
+a:hover {
+  transition: 1s ease-in-out;
+}
+address{
+    background-color: #e1c5a7;
+    margin:0px;
+    padding-left: 1vh;
+}
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+body{    /*this block is to make the bg color black and font color*/
+    background-image: url(images/vectot.jpg);
+  }
+  * {
+     box-sizing: border-box;
+  }
+  ul{  /*styling the nav bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    overflow: hidden;
+  }
+  li{ /* in order to get nav bar elements horizontal not vertical*/
+    display: inline;
+  }
+  li a { /*styling the text of the nav bar*/
+    text-decoration:none;
+    color:brown;
+    font-size:1.5vw;
+    padding:1%;
+  }
+  li a:hover{ /* changing the color of the elements when hovering*/
+    color:orange;
+  }
+
+  #title{
+    font-size:4vw;
+    color:#a52a2a;
+    background-color: #e1c5a7;
+   text-align: center;
+  }
+
+    
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+ float:left;
+  margin-bottom:1%;
+  
+}
+.right{
+  width:50%;
+  float:right;
+  }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html, body {
+    height: 100%;
+    margin: 0%;
+}
+  @font-face {
+    font-family: NRF;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+  }
+  p,h2,h3,pre{
+      font-family: NRF;
+  }
+  p{
+      font-size: 1vw;
+  }
+  #fv{
+    box-shadow: -1.3vw -1.3vw brown;
+    max-width: 100%;
+    max-height: 60vh;
+    margin-top:27%;
+    margin-left:48%;
+  }
+  #ft{
+      max-width: 100%;
+      background-color: brown;
+      text-align:center;
+      padding-left:2%;
+      padding-top: 1%;
+      height:20vh;
+      border: 1px solid #e1c5a7;
+      color:#e1c5a7;
+  }
+  
+  #fm{
+      font-size: 3vw;
+      padding-top:1%;
+      color: brown;
+        text-align:center;
+        max-width:100%;
+        text-shadow: brown;
+        margin-top:10%;
+        margin-bottom:0%;
+      }
+.first{
+    background-color: #e1c5a7;
+    height:100vh;
+    max-width: 100%;
+}
+.second{
+    background-color:brown;
+    height: 100vh;
+    max-width: 100%;
+}
+#st{
+    max-width: 100%;
+    background-color: #e1c5a7;
+    text-align:center;
+    vertical-align: middle;
+    padding-left:2%;
+    padding-top: 1%;
+    height:20vh;
+    color:#a52a2a;
+    padding-right: 1%;
+}
+#sv{
+    box-shadow: -1.3vw -1.3vw #e1c5a7;
+    width:97%;
+    max-height: 60vh;
+    margin-top:27%;
+    margin-left:44%;
+  }
+  #sm{
+    font-size: 2.6vw;
+    padding-top:1%;
+    color: #e1c5a7;
+      text-align:center;
+      max-width:100%;
+      text-shadow: brown;
+      margin-top:10%;
+      margin-bottom:0%;
+    }
+    #tv{
+        box-shadow: -1.3vw -1.3vw brown;
+    max-width:95%;
+    height:auto;
+    margin-top:35%;
+    margin-left:48%;
+    }
+    #tm{
+        font-size: 3vw;
+        padding-top:1%;
+        color: brown;
+          text-align:center;
+          max-width:100%;
+          text-shadow: brown;
+          margin-top:10%;
+          margin-left:5%;
+        }
+    #by{
+        color:brown;
+        font-size: 1.2vw;
+        text-align: center;
+        padding: 0% 2% 2%;
+    }
+    .test{
+        margin-top:3vh;
+        margin-bottom:1vh;
+    }

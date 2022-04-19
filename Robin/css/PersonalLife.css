@@ -1,0 +1,184 @@
+body{    /*this block is to make the bg color black and font color*/
+    background-image: url(images/vectot.jpg);
+    color:white;
+  }
+  * {
+     box-sizing: border-box;
+  }
+  ul{  /*styling the nav bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    overflow: hidden;
+  }
+  li{ /* in order to get nav bar elements horizontal not vertical*/
+    display: inline;
+  }
+  .right{
+    width:50%;
+    float:right;
+  }
+  li a { /*styling the text of the nav bar*/
+    text-decoration:none;
+    color:brown;
+    font-size:1.5vw;
+    padding:1%;
+  }
+  li a:hover{ /* changing the color of the elements when hovering*/
+    color:orange;
+  }
+
+  #title{
+    font-size:4vw;
+    color:#a52a2a;
+    background-color: #e1c5a7;
+   text-align: center;
+  }
+
+    
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+ float:left;
+  margin-bottom:1%;
+  max-width: 30%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+html, body {
+    height: 100%;
+    margin: 0%;
+}
+  @font-face {
+    font-family: NRF;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+  }
+  
+  p, h2{
+    font-family: NRF;
+    font-size: 1.2vw;
+    }
+    h2{
+        font-size: 1.5vw;
+    }
+.first{
+width:100%;
+background-color:brown;
+height:13vh;
+}
+.header{
+margin-left:1%;
+color:#e1c5a7;
+text-decoration:underline;
+padding: 1%;
+font-size: 2vw;
+margin-top:13vh;
+}
+.bg{
+    background-color:#e1c5a7;
+    color:#e1c5a7 ;
+    max-width: 100%;
+    padding-top:2.7%;
+    height: 87vh;
+  
+}
+.image{
+    width:23.1%;
+    margin-right:5%;
+
+}
+.card {
+    box-shadow: 15px 15px 20px 0px rgba(114, 10, 31, 0.719);
+    transition: 0.3s;
+    width: 23.10%;
+    border-radius: 10px;
+   background-color:brown;
+   height:90%;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(143, 35, 35, 0.2);
+  }
+  
+img {
+    max-width:95%;
+    padding:5% 2% 2% 6.3%;
+    height:60%;
+  }
+
+  .container {
+    padding: 5% 15%;
+    height:40%;
+  }
+  h3{
+      font-size: 1.8vw;
+  }
+  .container h3{
+    margin-top:0%;
+    font-size:large;
+  }
+  .container p{
+    font-size: medium;
+  }
+  .container h5{
+    font-size: medium;
+  }
+
+
+.second{
+    background-color: #e1c5a7;
+    height:12vh;
+}
+.header2{
+    margin-left:1%;
+    color:brown;
+    text-decoration:underline;
+    padding: 1%;
+    font-size: 2vw;
+    margin-top:13vh;
+    }
+    .bg2{
+        background-color:brown;
+        color:brown ;
+        max-width: 100%;
+        padding-top:3%;
+        height: 90vh;
+    }
+    .card2 {
+        box-shadow: 13px 13px 25px 0px rgba(201, 170, 137, 0.534);
+        transition: 0.3s;
+        width: 23.10%;
+        border-radius: 10px;
+       background-color:#e1c5a7;
+       min-height:90%;
+
+      }
+      .card2:hover {
+        box-shadow: 0 8px 16px 0 rgba(143, 35, 35, 0.2);
+      }
+      .third{
+        color:brown;
+        text-align: center;
+      }
+      
+      .third a{
+        color:#ecaa63
+      }
+      .third a:hover{
+        font-size:2vw;
+        color:red;
+      }

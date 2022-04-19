@@ -1,0 +1,235 @@
+body{    /*this block is to make the bg color black and font color*/
+  background-image: url(../assets/images/vectot.jpg);
+}
+ul{  /*styling the nav bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    overflow: hidden;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+li{ /* in order to get nav bar elements horizontal not vertical*/
+  display: inline;
+}
+.right{
+  width:50%;
+  float:right;
+}
+
+li a { /*styling the text of the nav bar*/
+  text-decoration:none;
+  color:brown;
+  font-size:1.5vw;
+  padding:1%;
+}
+li a:hover{ /* changing the color of the elements when hovering*/
+  font-size: 1.8vw;
+  color:rgb(206, 116, 116);
+  transition:0.5s ease-out;
+}
+/* --------------------------------------------------------------------------------------------- */
+#title{
+  font-size:4vw;
+  color:#a52a2a;
+  background-color: #e1c5a7;
+  text-align: center;
+  position: relative;
+  animation-name: titlemove;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+@keyframes titlemove {
+  from {left: -110vw;}
+  to {left: 0vw;}
+}
+*{
+  box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+ float:left;
+  margin-bottom:1%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@font-face {
+  font-family: NRF;
+  src: url(../assets/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+p, h2{
+  font-family: NRF;
+  font-size: 1.2vw;
+  }
+.brtitle{
+  text-align:right;
+  color:#e1c5a7;
+  text-shadow: brown;
+  margin-top:11.2%;
+  margin-bottom:0%;
+  margin-left: -2.5%;
+}
+.crtitle{
+  text-align:left;
+  color:brown;
+  text-shadow: brown;
+  float: right;
+  margin-top:8%;
+  margin-right:6.5%;
+  margin-bottom:0%;
+}
+#br{ /*id for image of robin while still baby*/
+ max-width: 100%;
+ margin-top:47%;
+ margin-left:50%;
+}
+.crright{
+  float:right;
+}
+.text{ /*text beside*/
+  color: #e1c5a7;
+  margin-left:75%;
+  text-align:left;
+  margin-top:5%;
+  width:75%;
+}
+.section1{
+  background-color:brown;
+}
+h2{
+  font-size:4vw;
+  margin-bottom:0;
+}
+#cr{  /*id for robins image while child with his mom */
+  max-width:100%;
+  margin-right:40%;
+  margin-top:38%;
+  float:right;
+}
+.circ{
+  color: brown;
+  text-align:left;
+  margin-left:10%;
+}
+.row{
+  height: 100%;
+}
+.section2{
+  background-color:#e1c5a7;
+}
+
+#fun{ 
+max-width: 100%;
+ margin-top:38%;
+ margin-left:30%;
+}
+.scl{
+  color: #e1c5a7;
+  margin-left:18%;
+  text-align:left;
+  width:40%;
+
+}
+.frtitle{
+  text-align:right;
+  color:#e1c5a7;
+  text-shadow: brown;
+  margin-top:7.8%;
+  margin-bottom:0%;
+  margin-left:0.5%;
+}
+.rititle{
+  text-align:left;
+  color:brown;
+  text-shadow: brown;
+  float: right;
+  margin-top:8%;
+  margin-right:6.5%;
+  margin-bottom:0%;
+}
+  
+ #waz{
+  width:100%;
+  margin-right:40%;
+  margin-top:38%;
+  float:right;
+ }
+
+
+.int{
+  color: brown;
+  text-align:left;
+  margin-left:10%;
+
+}
+
+#comic{
+max-width: 80%;
+  border-style:double;
+  border-width:1em;
+  border-color:brown;
+  margin-bottom: 2%;
+  margin-left:10%;
+ }
+
+.container {
+  position: relative;
+  max-width:80%;
+  margin: 2% auto;
+}
+
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background:rgba(225, 197, 168,0.5);
+  color: brown;
+  padding: 31px;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  width:80%;
+}
+.fam a{
+  color:cornsilk;
+}
+.fam a:hover{
+  color:black;
+}
+.next a{
+  color:#e1c5a7;
+}
+.next a:hover{
+  font-size: 150%;
+  transition:1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.arrow {
+  border: solid #e1c5a7;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding:0.5%;
+}
+
+.rightt{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

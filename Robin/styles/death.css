@@ -1,0 +1,155 @@
+body {
+  /*this block is to make the bg color black and font color*/
+  background-image: url(../assets/images/vectot.jpg);
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  /*styling the nav bar*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 1%;
+  overflow: hidden;
+}
+li {
+  /* in order to get nav bar elements horizontal not vertical*/
+  display: inline;
+}
+li a {
+  /*styling the text of the nav bar*/
+  text-decoration: none;
+  color: brown;
+  font-size: 1.5vw;
+  padding: 1%;
+}
+li a:hover {
+  /* changing the color of the elements when hovering*/
+  font-size: 1.8vw;
+  color: rgb(206, 116, 116);
+  transition: 0.5s ease-out;
+}
+
+#title {
+  font-size: 4vw;
+  color: #a52a2a;
+  background-color: #e1c5a7;
+  text-align: center;
+  position: relative;
+  animation-name: titlemove;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+@keyframes titlemove {
+  from {
+    left: -110vw;
+  }
+  to {
+    left: 0vw;
+  }
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+html,
+body {
+  height: 100%;
+  margin: 0%;
+}
+@font-face {
+  font-family: NRF;
+  src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+p,
+h2,
+h3,
+pre {
+  font-family: NRF;
+}
+p {
+  font-size: 1vw;
+}
+#dr {
+  height: 75vh;
+  width: 75vh;
+  float: left;
+  margin-top: 5vh;
+}
+.tem {
+  background-color: brown;
+  height: 100vh;
+  color: #e1c5a7;
+}
+#better {
+  text-align: center;
+  font-size: 3vw;
+  padding-top: 5vh;
+  padding-right: 5vh;
+  color: #e1c5a7;
+}
+.dis {
+  text-align: justify;
+}
+.empl {
+  width: 8vw;
+}
+.empr {
+  width: 5vw;
+}
+#poo {
+  font-size: 1.2vw;
+}
+.buto {
+  background-color: #a52a2a;
+  border: none;
+  color: #e1c5a7;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  margin: 5px;
+}
+.buto:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #e1c5a7;
+  color: brown;
+  transition: 1s ease-in-out;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #e1c5a7;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #e1c5a7;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #e1c5a7;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select {
+  background-color: #a52a2a88;
+  border-radius: 12px;
+  border-color: #e1c5a79c;
+}
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus {
+  background-color: #a52a2a;
+  transition: 1s ease;
+}

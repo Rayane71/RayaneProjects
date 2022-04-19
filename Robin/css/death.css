@@ -1,0 +1,84 @@
+body{    /*this block is to make the bg color black and font color*/
+    background-image: url(images/vectot.jpg);
+   
+  }
+  * {
+     box-sizing: border-box;
+  }
+  ul{  /*styling the nav bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    overflow: hidden;
+  }
+  li{ /* in order to get nav bar elements horizontal not vertical*/
+    display: inline;
+  }
+  li a { /*styling the text of the nav bar*/
+    text-decoration:none;
+    color:brown;
+    font-size:1.5vw;
+    padding:1%;
+  }
+  li a:hover{ /* changing the color of the elements when hovering*/
+    color:orange;
+  }
+
+  #title{
+    font-size:4vw;
+    color:#a52a2a;
+    background-color: #e1c5a7;
+   text-align: center;
+  }
+
+.right{
+    float: right;
+    width:50%;
+}
+html, body {
+    height: 100%;
+    margin: 0%;
+}
+  @font-face {
+    font-family: NRF;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+  }
+  p,h2,h3,pre{
+      font-family: NRF;
+  }
+  p{
+      font-size: 1vw;
+  }
+  #dr{
+      height: 75vh;
+      width: 75vh;
+      float: left;
+      margin-top:5vh;
+  }
+  .tem{
+      background-color: brown;
+      height: 100vh;
+      color:#e1c5a7;
+  }
+  #better{
+      text-align: center;
+      font-size: 3vw;
+      padding-top:5vh;
+      padding-right:5vh;
+      color:#e1c5a7;
+  }
+  .dis{
+    text-align:justify;
+
+  }
+  .empl{
+      width:8vw;
+  }
+  .empr{
+    width:5vw;
+}
+#intro{
+    font-size: 1.2vw;
+    color:#a52a2a;
+}
